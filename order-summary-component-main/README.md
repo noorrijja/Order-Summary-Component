@@ -6,7 +6,12 @@
 
 ## Desktop Preview (hp EliteBook)
 
+![Uploading screencapture-127-0-0-1-5500-order-summary-component-main-index-html-2024-02-17-22_40_33.png…]()
+
+
 ## Mobile Preview(iphone 6)
+
+![Uploading screencapture-127-0-0-1-5500-order-summary-component-main-index-html-2024-02-17-22_41_00.png…]()
 
 ### Built with
 
