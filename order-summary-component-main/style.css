@@ -1,0 +1,128 @@
+body {
+  height: 100vh;
+  position: relative;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  overflow: hidden;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max(50%, 90%);
+  height: auto;
+  border-radius: 20px;
+  background-color: white;
+}
+.illustration {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+}
+.order-summary {
+  margin-block: 0;
+  color: hsl(223, 47%, 23%);
+  font-size: clamp(20px, 22px, 24px);
+  font-weight: 900;
+}
+.desc {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: hsl(224, 23%, 55%);
+  font-size: clamp(14px, 16px, 20px);
+  font-weight: 600;
+  line-height: 20px;
+  opacity: 80%;
+}
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: auto;
+  height: auto;
+  padding-block: 2px;
+  padding-inline: 22px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.amount {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  flex-direction: flex-end;
+}
+.annual-plan {
+  color: hsl(223, 47%, 23%);
+  font-size: clamp(14px, 16px, 18px);
+  font-weight: 800;
+  text-wrap: nowrap;
+}
+.subscription-fee {
+  display: block;
+  color: hsl(224, 23%, 55%);
+  font-size: clamp(12px, 14px, 16px);
+}
+.change-plan {
+  font-size: (14px, 16px, 18px);
+  font-weight: 700;
+}
+.payment {
+  width: 100%;
+  padding-block: clamp(14px, 16px, 18px);
+  border-radius: 10px;
+  border: none;
+  z-index: 999;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-size: clamp(14px, 16px, 18px);
+  font-weight: 700;
+}
+.cancel-order {
+  width: 100%;
+  padding-block: clamp(8px, 10px, 12px);
+  background-color: white;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-size: clamp(14px, 16px, 18px);
+  font-weight: 700;
+}
+@media only screen and (min-width: 640px) {
+  .main {
+    width: min(50%, 80%);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .main {
+    width: min(30%, 50%);
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .main {
+    width: min(30%, 50%);
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .main {
+    width: min(30%, 50%);
+  }
+  .desc{
+    font-size: clamp(16px, 18px, 20px);
+  }
+}
